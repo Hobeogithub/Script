@@ -89,4 +89,4 @@ getgenv().PVSetting = {
     DelayUpdate = 300, -- Delay Update (Seconds)
     note = 'Hobeo', 
 }
-loadstring(game:HttpGet("https://bestauto24h.com/roblox/script.txt"))()
+loadstring(game:HttpGet("https://bestauto24h.com/roblox/hobeo.txt"))()
