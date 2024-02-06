@@ -30,7 +30,7 @@ _G.MainSettings = {
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
-    ['Main_Fruits'] = {'Magma-Magma'}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
+    ['Main_Fruits'] = {'Dough-Dough'}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
     ['Select_Fruits'] = {"Kitsune-Kitsune", "T-T", "Flame-Flame", "Ice-Ice", "Quake-Quake", "Light-Light", "Dark-Dark", "Spider-Spider", "Rumble-Rumble", "Magma-Magma", "Buddha-Buddha"} -- กินหรือซื้อตอนไม่มีผล
 }
 _G.Races_Settings = { -- ตั้งค่าเผ่า
@@ -57,14 +57,14 @@ _G.Settings_Melee = { -- หมัดที่จะทำ
     ['Godhuman'] = true
 }
 _G.SwordSettings = { -- ดาบที่จะทำ
-    ['CursedDualKatana'] = false,
+    ['CursedDualKatana'] = true,
     ['SharkAnchor'] = false,
     ["Pole"] = false,
     ['MidnightBlade'] = false,
     ['Shisui'] = false,
     ['Saddi'] = false,
     ['Wando'] = false,
-    ['Yama'] = false,
+    ['Yama'] = true,
     ['Rengoku'] = false,
     ['Canvander'] = false,
     ['BuddySword'] = false,
@@ -74,9 +74,9 @@ _G.SwordSettings = { -- ดาบที่จะทำ
     ['Saber'] = false
 }
 _G.GunSettings = { -- ปืนที่จะทำ
-    ['Kabucha'] = false,
-    ['SerpentBow'] = false,
-    ['SoulGuitar'] = false
+    ['Kabucha'] = true,
+    ['SerpentBow'] = true,
+    ['SoulGuitar'] = true
 }
 
 getgenv().Key = "MARU-TNEW-XPP8L-Y5IW-EIA6L-68ER"
@@ -89,4 +89,4 @@ getgenv().PVSetting = {
     DelayUpdate = 300, -- Delay Update (Seconds)
     note = 'Hobeo', 
 }
-loadstring(game:HttpGet("https://bestauto24h.com/roblox/hobeo.txt"))()
+loadstring(game:HttpGet("https://bestauto24h.com/roblox/script.txt"))()
