@@ -36,13 +36,13 @@ _G.Fruits_Settings = { -- ตั้งค่าผล
 _G.Races_Settings = { -- ตั้งค่าเผ่า
     ['Race'] = {
         ['EnabledEvo'] = false,
-        ["v2"] = true,
-        ["v3"] = true,
+        ["v2"] = false,
+        ["v3"] = false,
         ["Races_Lock"] = {
             ["Races"] = { -- Select Races U want
-                ["Mink"] = true,
-                ["Human"] = true,
-                ["Fishman"] = true
+                ["Mink"] = false,
+                ["Human"] = false,
+                ["Fishman"] = false
             },
             ["RerollsWhenFragments"] = 20000 -- Random Races When Your Fragments is >= Settings
         }
