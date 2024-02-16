@@ -36,13 +36,13 @@ _G.Fruits_Settings = { -- ตั้งค่าผล
 _G.Races_Settings = { -- ตั้งค่าเผ่า
     ['Race'] = {
         ['EnabledEvo'] = false,
-        ["v2"] = true,
-        ["v3"] = true,
+        ["v2"] = false,
+        ["v3"] = false,
         ["Races_Lock"] = {
             ["Races"] = { -- Select Races U want
-                ["Mink"] = true,
-                ["Human"] = true,
-                ["Fishman"] = true
+                ["Mink"] = false,
+                ["Human"] = false,
+                ["Fishman"] = false
             },
             ["RerollsWhenFragments"] = 20000 -- Random Races When Your Fragments is >= Settings
         }
@@ -57,14 +57,14 @@ _G.Settings_Melee = { -- หมัดที่จะทำ
     ['Godhuman'] = true
 }
 _G.SwordSettings = { -- ดาบที่จะทำ
-    ['CursedDualKatana'] = true,
+    ['CursedDualKatana'] = false,
     ['SharkAnchor'] = false,
     ["Pole"] = false,
     ['MidnightBlade'] = false,
     ['Shisui'] = false,
     ['Saddi'] = false,
     ['Wando'] = false,
-    ['Yama'] = true,
+    ['Yama'] = false,
     ['Rengoku'] = false,
     ['Canvander'] = false,
     ['BuddySword'] = false,
@@ -74,9 +74,9 @@ _G.SwordSettings = { -- ดาบที่จะทำ
     ['Saber'] = false
 }
 _G.GunSettings = { -- ปืนที่จะทำ
-    ['Kabucha'] = true,
-    ['SerpentBow'] = true,
-    ['SoulGuitar'] = true
+    ['Kabucha'] = false,
+    ['SerpentBow'] = false,
+    ['SoulGuitar'] = false
 }
 
 getgenv().Key = "MARU-9KWP-5KPDJ-AK4M-0V5PI-GBVE"
