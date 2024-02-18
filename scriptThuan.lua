@@ -79,14 +79,14 @@ _G.GunSettings = { -- ปืนที่จะทำ
     ['SoulGuitar'] = true
 }
 
-getgenv().Key = "MARU-6YYN-94H18-UW9K-7QJA2-K484"
-getgenv().id = "599152046523940874"
+getgenv().Key = "MARU-1H70-COPZ2-OE1F-HEI4Q-S1I1"
+getgenv().id = "1206965213862174772"
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 
 getgenv().PVSetting = {
-    key = 'XwkRa-FBWOK_Hobeo-', -- Secret Code
+    key = 'XwkRa-Thuan_Thuan-', -- Secret Code
     DelayUpdate = 300, -- Delay Update (Seconds)
-    note = 'Hobeo', 
+    note = 'Thuan',
 }
 loadstring(game:HttpGet("https://bestauto24h.com/roblox/script.txt"))()
