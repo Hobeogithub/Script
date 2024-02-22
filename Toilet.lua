@@ -1,9 +1,9 @@
 shared.Config = {
     KaitanMode = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
     },
     Webhooks = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["URL"] = "",
     },
     Settings = {
