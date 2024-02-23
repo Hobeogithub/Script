@@ -57,14 +57,14 @@ _G.Settings_Melee = { -- หมัดที่จะทำ
     ['Godhuman'] = true
 }
 _G.SwordSettings = { -- ดาบที่จะทำ
-    ['CursedDualKatana'] = true,
+    ['CursedDualKatana'] = false,
     ['SharkAnchor'] = false,
     ["Pole"] = false,
     ['MidnightBlade'] = false,
     ['Shisui'] = false,
     ['Saddi'] = false,
     ['Wando'] = false,
-    ['Yama'] = true,
+    ['Yama'] = false,
     ['Rengoku'] = false,
     ['Canvander'] = false,
     ['BuddySword'] = false,
@@ -74,9 +74,9 @@ _G.SwordSettings = { -- ดาบที่จะทำ
     ['Saber'] = false
 }
 _G.GunSettings = { -- ปืนที่จะทำ
-    ['Kabucha'] = true,
-    ['SerpentBow'] = true,
-    ['SoulGuitar'] = true
+    ['Kabucha'] = false,
+    ['SerpentBow'] = false,
+    ['SoulGuitar'] = false
 }
 
 getgenv().Key = "MARU-XHWP-KE73E-8P8J-R5M86-L6ZS"
