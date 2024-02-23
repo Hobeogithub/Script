@@ -6,8 +6,8 @@ shared.Config = {
         ["Enabled"] = false,
     },
     Webhooks = {
-        ["Enabled"] = false,
-        ["URL"] = "",
+        ["Enabled"] = true,
+        ["URL"] = "https://discord.com/api/webhooks/1210518410627129374/5wDqyqhfUx72IgGNyUq028p6RkWIBOpA38C9toW5SNTxMdTPrF-9zOeqDjLKEx3oVXI9",
     },
     Settings = {
         ["Select World"] = "ToiletCity",
