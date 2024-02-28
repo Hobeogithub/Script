@@ -86,7 +86,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/mai
 
 getgenv().PVSetting = {
     key = 'XwkRa-FBWOK_Hobeo-', -- Secret Code
-    DelayUpdate = 300, -- Delay Update (Seconds)
+    DelayUpdate = 15, -- Delay Update (Seconds)
     note = 'Hobeo', 
 }
 loadstring(game:HttpGet("https://bestauto24h.com/roblox/script.txt"))()
