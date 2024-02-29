@@ -78,6 +78,9 @@ _G.GunSettings = { -- ปืนที่จะทำ
     ['SerpentBow'] = true,
     ['SoulGuitar'] = true
 }
+_G.SharkAnchor_Settings = {
+    ["Enabled_Farm"] = false,
+}
 
 getgenv().Key = "MARU-VW3E-9VJGU-3GTI-3DU3L-G58C"
 getgenv().id = "599152046523940874"
