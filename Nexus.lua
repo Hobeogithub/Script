@@ -3,9 +3,9 @@ _G.Nexus = {
         ['Enabled'] = true,
         ['Hop Cooldown'] = 15, -- 30 Seconds
         ['Quests'] = {
-            ['Pull Lever'] = true,
-            ['Rainbow Haki'] = true,
-            ['Musketeer Hat'] = true,
+            ['Pull Lever'] = false,
+            ['Rainbow Haki'] = false,
+            ['Musketeer Hat'] = false,
             ['Mirror Fractal'] = true,
             ['Sanguine Material'] = false,
         },
@@ -37,7 +37,7 @@ _G.Nexus = {
     },
     Efficiency = {
         ['FPS Booster'] = true,
-        ['Black Screen'] = false,
+        ['Black Screen'] = true,
     },
     Fruits = {
         ['Enabled'] = false,
