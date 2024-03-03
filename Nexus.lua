@@ -83,10 +83,3 @@ getgenv().Key = "MARU-X0PX-PP2CG-PZ7M-WGD2U-BV5S"
 getgenv().id = "1161963332480286762"
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
-
-getgenv().PVSetting = {
-    key = 'XwkRa-FBWOK_Hobeo-', -- Secret Code
-    DelayUpdate = 15, -- Delay Update (Seconds)
-    note = 'Hobeo', 
-}
-loadstring(game:HttpGet("https://bestauto24h.com/roblox/script.txt"))()
