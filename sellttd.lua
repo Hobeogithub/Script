@@ -5,15 +5,11 @@ shared.AutoSell = {
     },
     ChatSetting = {
         Active = true,
-        Delay = 15,
-        List = {"Sell Patrick crate 20 gem in maket place", "Patrick crate 20 gem in market place"}
+        Delay = 20,
+        List = {"Sell Patrick crate 25 gem in maket place", "Patrick crate 25 gem in market place"}
     },
     Unit = {
-        ["St. Patrick's Day 2024 Crate"] = 20,
-        ["Toxic Upgraded Titan Cameraman"] = 12345,
-        ["Mace Cameraman"] = 6789,
-        ["Shield Cameraman"] = 10111,
-        ["Red Laser Cameraman"] = 99999,
+        ["St. Patrick's Day 2024 Crate"] = 25,
     }
 }
 
