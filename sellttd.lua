@@ -1,3 +1,4 @@
+-- Tat trade
 shared.AutoSell = {
     Webhook = "https://discord.com/api/webhooks/1219256778869706822/XW9ittqZzRMCS9blEu5L_wr4hDSlz5UgNvkB2-nKHBY4fimOjPjhWrPGkh9r1W4erqSu",
     HopSetting = {
@@ -7,7 +8,7 @@ shared.AutoSell = {
     ChatSetting = {
         Active = true,
         Delay = 15,
-        List = {"Sell Patrick crate 25 gem in maket place", "Patrick crate 25 gem in market place"}
+        List = {"acsu dep trai", "cai jj do"}
     },
     Unit = {
         ["St. Patrick's Day 2024 Crate"] = 25,
@@ -183,10 +184,9 @@ spawn(function()
     end
 end)
 
-clickGui(plr.PlayerGui.Lobby.LeftSideFrame.Units.IntractiveBtn)
 repeat wait() until plr:FindFirstChild("leaderstats")
+clickGui(plr.PlayerGui.Lobby.LeftSideFrame.Units.IntractiveBtn)
 wait(2)
-
 print(plr.Name .. " | Unit: " .. plr.PlayerGui.Lobby.UnitFrame.TopButtons.UnitLimit.UnitAmount.Text .. " | Gem: " .. plr.leaderstats.Gems.Value)
 
 if shared.AutoSell.Webhook ~= "" then
