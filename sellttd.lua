@@ -1,7 +1,7 @@
 shared.AutoSell = {
     HopSetting = {
         EverySecond = 10,
-        MinPlayer = 600, --Max 65
+        MinPlayer = 300, --Max 65
     },
     ChatSetting = {
         Active = true,
