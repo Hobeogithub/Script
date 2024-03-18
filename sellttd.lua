@@ -7,10 +7,10 @@ shared.AutoSell = {
     ChatSetting = {
         Active = true,
         Delay = 15,
-        List = {"Sell Patrick crate 30 gem in maket place", "Patrick crate 30 gem in market place"}
+        List = {"Sell Patrick crate 25 gem in maket place", "Patrick crate 25 gem in market place"}
     },
     Unit = {
-        ["St. Patrick's Day 2024 Crate"] = 30,
+        ["St. Patrick's Day 2024 Crate"] = 25,
         ["Red Laser Cameraman"] = 250,
         ["Bunny Crate"] = 50,
     }
