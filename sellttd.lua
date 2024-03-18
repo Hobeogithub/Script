@@ -185,7 +185,7 @@ end)
 
 clickGui(plr.PlayerGui.Lobby.LeftSideFrame.Units.IntractiveBtn)
 repeat wait() until plr:FindFirstChild("leaderstats")
-wait(0.5)
+wait(2)
 
 print(plr.Name .. " | Unit: " .. plr.PlayerGui.Lobby.UnitFrame.TopButtons.UnitLimit.UnitAmount.Text .. " | Gem: " .. plr.leaderstats.Gems.Value)
 
