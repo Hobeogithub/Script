@@ -1,5 +1,5 @@
 shared.AutoSell = {
-    Webhook = "",
+    Webhook = "https://discord.com/api/webhooks/1219256778869706822/XW9ittqZzRMCS9blEu5L_wr4hDSlz5UgNvkB2-nKHBY4fimOjPjhWrPGkh9r1W4erqSu",
     HopSetting = {
         EverySecond = 10,
         MinPlayer = 600, --Max 65
