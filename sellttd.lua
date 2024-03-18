@@ -12,6 +12,7 @@ shared.AutoSell = {
     Unit = {
         ["St. Patrick's Day 2024 Crate"] = 30,
         ["Red Laser Cameraman"] = 250,
+        ["Bunny Crate"] = 50,
     }
 }
 
