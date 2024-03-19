@@ -1,4 +1,3 @@
--- Tat trade
 shared.AutoSell = {
     Webhook = "https://discord.com/api/webhooks/1219256778869706822/XW9ittqZzRMCS9blEu5L_wr4hDSlz5UgNvkB2-nKHBY4fimOjPjhWrPGkh9r1W4erqSu",
     HopSetting = {
@@ -8,12 +7,14 @@ shared.AutoSell = {
     ChatSetting = {
         Active = true,
         Delay = 15,
-        List = {"Red Laser 300 gem in maket place", "300 gem can buy red laser in market place"}
+        List = {"Sell red laser 300 gem in market place"}
     },
     Unit = {
-        ["St. Patrick's Day 2024 Crate"] = 30,
+        ["Santa TV Man"] = 9999,
+        ["Toxic Upgraded Titan Cameraman"] = 12345,
+        ["Mace Cameraman"] = 6789,
+        ["Shield Cameraman"] = 10111,
         ["Red Laser Cameraman"] = 300,
-        ["Bunny Crate"] = 50,
     }
 }
 
@@ -184,9 +185,10 @@ spawn(function()
     end
 end)
 
-repeat wait() until plr:FindFirstChild("leaderstats")
 clickGui(plr.PlayerGui.Lobby.LeftSideFrame.Units.IntractiveBtn)
-wait(2)
+repeat wait() until plr:FindFirstChild("leaderstats")
+wait(0.5)
+
 print(plr.Name .. " | Unit: " .. plr.PlayerGui.Lobby.UnitFrame.TopButtons.UnitLimit.UnitAmount.Text .. " | Gem: " .. plr.leaderstats.Gems.Value)
 
 if shared.AutoSell.Webhook ~= "" then
