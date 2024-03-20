@@ -1,3 +1,4 @@
+-- Tat trade
 shared.AutoSell = {
     Webhook = "https://discord.com/api/webhooks/1219256778869706822/XW9ittqZzRMCS9blEu5L_wr4hDSlz5UgNvkB2-nKHBY4fimOjPjhWrPGkh9r1W4erqSu",
     HopSetting = {
@@ -7,13 +8,9 @@ shared.AutoSell = {
     ChatSetting = {
         Active = true,
         Delay = 15,
-        List = {"Sell red laser 300 gem in market place"}
+        List = {"sell red laser 300 gem in market place"}
     },
     Unit = {
-        ["Santa TV Man"] = 9999,
-        ["Toxic Upgraded Titan Cameraman"] = 12345,
-        ["Mace Cameraman"] = 6789,
-        ["Shield Cameraman"] = 10111,
         ["Red Laser Cameraman"] = 300,
     }
 }
@@ -71,6 +68,7 @@ local dl = false
 function clickGui(path)
     if dl == false then
         dl = true
+        print(path:GetFullName())
         guiservice.SelectedObject = path
         wait(.2)
         vim:SendKeyEvent(true, 13, false, game)
@@ -185,10 +183,9 @@ spawn(function()
     end
 end)
 
-clickGui(plr.PlayerGui.Lobby.LeftSideFrame.Units.IntractiveBtn)
 repeat wait() until plr:FindFirstChild("leaderstats")
-wait(0.5)
-
+clickGui(plr.PlayerGui.Lobby.LeftSideFrame.Units.IntractiveBtn)
+wait(2)
 print(plr.Name .. " | Unit: " .. plr.PlayerGui.Lobby.UnitFrame.TopButtons.UnitLimit.UnitAmount.Text .. " | Gem: " .. plr.leaderstats.Gems.Value)
 
 if shared.AutoSell.Webhook ~= "" then
@@ -223,7 +220,7 @@ spawn(function()
                 plr.Character.PrimaryPart.CFrame = CFrame.new(2114.790771484375, -1.386025309562683, 2119.912109375)
                 wait(1)
                 plr.Character.PrimaryPart.CFrame = CFrame.new(2131.40625, 1.373171329498291, 2140.538330078125)
-            elseif plr.PlayerGui.Lobby.MarketplaceFrame.Visible and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.Visible == false then
+            elseif plr.PlayerGui.Lobby.MarketplaceFrame.Visible and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.Visible == false and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.BuyMenu.Visible == true then
                 clickGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.TopBar.Sell.Button)
             end
         end)
@@ -247,6 +244,7 @@ spawn(function()
                                 clickGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.SellUnitPopup.RightMenu.PutOnSale.SellButton)
                                 clickGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.SellUnitPopup.RightMenu.PutOnSale.SellButton)
                             until plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.ConfirmPopup.Visible
+                            wait(0.5)
                             repeat wait()
                                 clickGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.ConfirmPopup.Options.Confirm.ConfirmButton)
                             until plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.ConfirmPopup.Visible == false
