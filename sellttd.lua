@@ -7,7 +7,7 @@ shared.AutoSell = {
     },
     ChatSetting = {
         Active = true,
-        Delay = 15,
+        Delay = 30,
         List = {"sell red laser 300 gem in market place"}
     },
     Unit = {
