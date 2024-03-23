@@ -88,8 +88,8 @@ getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 
 getgenv().PVSetting = {
-    key = 'XwkRa-FBWOK_Hobeo-', -- Secret Code
-    DelayUpdate = 300, -- Delay Update (Seconds)
-    note = 'Hobeo', 
+    key = 'XwkRa-FBWOK_HoBeo-', -- Secret Code
+    DelayUpdate = 200, -- Delay Update (Seconds)
+    note = 'HoBeo',
 }
-loadstring(game:HttpGet("https://bestauto24h.com/roblox/hobeo.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minhkog/roblox/main/trackstat_new_version.lua"))()
