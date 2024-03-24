@@ -7,14 +7,14 @@ shared.AutoSell = {
     ChatSetting = {
         Active = true,
         Delay = 30,
-        List = {"Sell red laser cameraman 350 gem in market place"}
+        List = {"Sell red laser cameraman 300 gem in market place"}
     },
     Unit = {
         ["Santa TV Man"] = 9999,
         ["Toxic Upgraded Titan Cameraman"] = 12345,
         ["Mace Cameraman"] = 6789,
         ["Shield Cameraman"] = 10111,
-        ["Red Laser Cameraman"] = 350,
+        ["Red Laser Cameraman"] = 300,
     }
 }
 
