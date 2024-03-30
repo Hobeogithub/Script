@@ -15,8 +15,9 @@ getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventsPass"] = true,
-    ["WhiteScreen"] = true,
-    ["DelayJoin"] = "15",
+    ["AutoClaimVIPRewards"] = true,
+    ["WhiteScreen"] = false,
+    ["DelayJoin"] = "30",
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "3",
     ["AutoExchangeEgg"] = "true",
@@ -24,6 +25,12 @@ getgenv().Config = {
     ["RequiredGem"] = 1000,
     ["AutoMail"] = true,
     ["WH_MatchComplete"] = true,
+    ["AutoUseBoost"] = true,
+    ["UseBoosts"] = {
+        ["2xCoinsBoost"] = true,
+        ["2xEggsBoost"] = true,
+    },
+    ["UseAll"] = false,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1216928373167882362/GU_kPhKKD0WwxenUQNntHOAU_LJdR2alC8haFWIDgNCP2kS9DwYvayJLupLh1IBj37do",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
