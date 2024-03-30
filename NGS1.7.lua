@@ -1,4 +1,4 @@
-getgenv().Key = "kb6a970679e83acd52fd6884"
+getgenv().Key = "k1f0f198eb736efbeea5d9f6"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
