@@ -1,7 +1,9 @@
-getgenv().Key = "kc1c453aae8ce9589a7fa6b6"
+getgenv().Key = "ke722fae319d8c8ca8595862"
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1224650159942668340/MacroEggNGS.json?ex=661e4357&is=660bce57&hm=c5c208a7b53cc5310d56f4cdbf0cd30aec61ac89ada09d32eb280cf6098f7be6&"
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
+    ["AutoJoinMatch"] = false,
     ["TPLobbyIfPlayer"] = true,
     ["SelectMap"] = "Egg Island",
     ["AutoVoteDifficulty"] = "true",
@@ -15,8 +17,9 @@ getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventsPass"] = true,
+    ["AutoClaimVIPRewards"] = true,
     ["WhiteScreen"] = true,
-    ["DelayJoin"] = "15",
+    ["DelayJoin"] = "30",
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "3",
     ["AutoExchangeEgg"] = "true",
@@ -24,6 +27,12 @@ getgenv().Config = {
     ["RequiredGem"] = 1000,
     ["AutoMail"] = true,
     ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1221661794213433376/DFOdIZ14u5nAca1pxHXkWa5K_jSdPa67I0pbec9kg4ccoiT1YfA6PWkzvfGXcaAG1mwo",
+    ["AutoUseBoost"] = true,
+    ["UseBoosts"] = {
+        ["2xCoinsBoost"] = true,
+        ["2xEggsBoost"] = true,
+    },
+    ["UseAll"] = false,
+    ["WebhookURL"] = "",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
