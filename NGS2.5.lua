@@ -1,4 +1,6 @@
 getgenv().Key = "k0a814c5234e1b3fe5ef8389"
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1224650159942668340/MacroEggNGS.json?ex=661e4357&is=660bce57&hm=c5c208a7b53cc5310d56f4cdbf0cd30aec61ac89ada09d32eb280cf6098f7be6&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = false,
