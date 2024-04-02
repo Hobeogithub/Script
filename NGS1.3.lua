@@ -1,7 +1,7 @@
 getgenv().Key = "kfa69a05c922f6d9c693694b"
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
+    ["AutoJoinMatch"] = false,
     ["TPLobbyIfPlayer"] = true,
     ["SelectMap"] = "Egg Island",
     ["AutoVoteDifficulty"] = "true",
@@ -16,7 +16,7 @@ getgenv().Config = {
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventsPass"] = true,
     ["AutoClaimVIPRewards"] = true,
-    ["WhiteScreen"] = false,
+    ["WhiteScreen"] = true,
     ["DelayJoin"] = "30",
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "3",
