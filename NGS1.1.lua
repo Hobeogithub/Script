@@ -1,4 +1,6 @@
-getgenv().Key = "kcf5d9df0f062f331b777cb4"
+getgenv().Key = "ke722fae319d8c8ca8595862"
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1224650159942668340/MacroEggNGS.json?ex=661e4357&is=660bce57&hm=c5c208a7b53cc5310d56f4cdbf0cd30aec61ac89ada09d32eb280cf6098f7be6&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = false,
@@ -31,6 +33,6 @@ getgenv().Config = {
         ["2xEggsBoost"] = true,
     },
     ["UseAll"] = false,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1220058813726593054/jFB1xABqHM4uxeUa9yRkFoWYbiQSqz_O6oMClPLuFHqCgVGw1wF0TkrjCcy1dk4Ibe8K",
+    ["WebhookURL"] = "",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
