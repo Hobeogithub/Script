@@ -1,7 +1,7 @@
 getgenv().Key = "kd458cf33d878e2e29635a84"
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = false,
+    ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["SelectMap"] = "Egg Island",
     ["AutoVoteDifficulty"] = "true",
