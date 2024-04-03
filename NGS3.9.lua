@@ -16,8 +16,8 @@ getgenv().Config = {
     ["BoostFPS"] = true,
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventsPass"] = true,
-    ["AutoClaimVIPRewards"] = true,
+    ["AutoClaimEventPass"] = true,
+    ["AutoClaimVIP"] = true,
     ["WhiteScreen"] = true,
     ["DelayJoin"] = "30",
     ["PlacingFailsafe"] = true,
@@ -32,7 +32,7 @@ getgenv().Config = {
         ["2xCoinsBoost"] = true,
         ["2xEggsBoost"] = true,
     },
-    ["UseAll"] = false,
+    ["UseAll"] = true,
     ["WebhookURL"] = "",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
