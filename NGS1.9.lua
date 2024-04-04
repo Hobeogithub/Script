@@ -33,6 +33,6 @@ getgenv().Config = {
         ["2xEggsBoost"] = true,
     },
     ["UseAll"] = true,
-    ["WebhookURL"] = "",
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1216928373167882362/GU_kPhKKD0WwxenUQNntHOAU_LJdR2alC8haFWIDgNCP2kS9DwYvayJLupLh1IBj37do",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
