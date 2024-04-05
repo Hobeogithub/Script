@@ -1,6 +1,6 @@
 getgenv().Key = "ke722fae319d8c8ca8595862"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1224650159942668340/MacroEggNGS.json?ex=661e4357&is=660bce57&hm=c5c208a7b53cc5310d56f4cdbf0cd30aec61ac89ada09d32eb280cf6098f7be6&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1225597546098069504/MacroEggBunny.json?ex=6621b5a9&is=660f40a9&hm=d40576b6420be9283aeb3b16513d71d02ac0134978626b0555b5973f9f06e772&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
@@ -8,7 +8,7 @@ getgenv().Config = {
     ["SelectMap"] = "Egg Island",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "MacroEggNGS",
+    ["SelectMacro"] = "MacroEggBunny",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
