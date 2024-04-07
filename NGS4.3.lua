@@ -20,6 +20,7 @@ getgenv().Config = {
     ["AutoClaimVIP"] = true,
     ["WhiteScreen"] = true,
     ["DelayJoin"] = "45",
+    ["JoinFailsafe"] = true,
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "1",
     ["AutoExchangeEgg"] = "true",
