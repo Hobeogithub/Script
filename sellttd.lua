@@ -7,10 +7,10 @@ shared.AutoSell = {
     ChatSetting = {
         Active = true,
         Delay = 20,
-        List = {"Sell Mewing TV Man 150 gem in market place"}
+        List = {"Sell Mewing TV Man 100 gem in market place"}
     },
     Unit = {
-        ["Mewing TV Man"] = 150,
+        ["Mewing TV Man"] = 100,
         ["Toxic Upgraded Titan Cameraman"] = 12345,
         ["Mace Cameraman"] = 6789,
         ["Shield Cameraman"] = 10111,
