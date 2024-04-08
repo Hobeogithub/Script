@@ -3,7 +3,7 @@ getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1225597546098069504/MacroEggBunny.json?ex=6621b5a9&is=660f40a9&hm=d40576b6420be9283aeb3b16513d71d02ac0134978626b0555b5973f9f06e772&"
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
+    ["AutoJoinMatch"] = false,
     ["TPLobbyIfPlayer"] = true,
     ["SelectMap"] = "Egg Island",
     ["AutoVoteDifficulty"] = "true",
@@ -28,7 +28,7 @@ getgenv().Config = {
     ["RequiredGem"] = 1000,
     ["AutoMail"] = true,
     ["WH_MatchComplete"] = true,
-    ["AutoUseBoost"] = true,
+    ["AutoUseBoost"] = false,
     ["UseBoosts"] = {
         ["2xCoinsBoost"] = true,
         ["2xEggsBoost"] = true,
