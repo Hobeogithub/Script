@@ -6,15 +6,15 @@ shared.AutoSell = {
     },
     ChatSetting = {
         Active = true,
-        Delay = 15,
+        Delay = 30,
         List = {"Sell Mewing TV Man 100 gem in market place"}
     },
     Unit = {
-        ["Mewing TV Man"] = 100,
+        ["Santa TV Man"] = 9999,
         ["Toxic Upgraded Titan Cameraman"] = 12345,
         ["Mace Cameraman"] = 6789,
         ["Shield Cameraman"] = 10111,
-        ["Red Laser Cameraman"] = 99999,
+        ["Mewing TV Man"] = 250,
     }
 }
 
@@ -29,82 +29,6 @@ repeat wait() until game:IsLoaded()
 if game.PlaceId == 13775256536 then
     while wait() do
         tps:Teleport(14682939953)
-    end
-end
-
-for i, v in pairs(game.Players:GetPlayers()) do
-    if v ~= plr and plr:IsFriendsWith(v.UserId) then
-        pcall(function()
-            local PlaceID = game.PlaceId
-            local AllIDs = {}
-            local foundAnything = ""
-            local actualHour = os.date("!*t").hour
-            local Deleted = false
-            local File = pcall(function()
-                AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
-            end)
-            if not File then
-                table.insert(AllIDs, actualHour)
-                writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
-            end
-            function TPReturner()
-                local Site;
-                if foundAnything == "" then
-                    Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
-                else
-                    Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
-                end
-                local ID = ""
-                if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
-                    foundAnything = Site.nextPageCursor
-                end
-                local num = 0;
-                for i,v in pairs(Site.data) do
-                    local Possible = true
-                    ID = tostring(v.id)
-                    if tonumber(v.maxPlayers) > tonumber(v.playing) and tonumber(v.playing) >= shared.AutoSell.HopSetting.MinPlayer then
-                        for _,Existing in pairs(AllIDs) do
-                            if num ~= 0 then
-                                if ID == tostring(Existing) then
-                                    Possible = false
-                                end
-                            else
-                                if tonumber(actualHour) ~= tonumber(Existing) then
-                                    local delFile = pcall(function()
-                                        delfile("NotSameServers.json")
-                                        AllIDs = {}
-                                        table.insert(AllIDs, actualHour)
-                                    end)
-                                end
-                            end
-                            num = num + 1
-                        end
-                        if Possible == true then
-                            table.insert(AllIDs, ID)
-                            wait()
-                            pcall(function()
-                                writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
-                                wait()
-                                game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
-                            end)
-                            wait(4)
-                        end
-                    end
-                end
-            end
-            
-            function Teleport()
-                while wait() do
-                    pcall(function()
-                        TPReturner()
-                        if foundAnything ~= "" then
-                            TPReturner()
-                        end
-                    end)
-                end
-            end
-            Teleport()
-        end)
     end
 end
 
@@ -296,9 +220,9 @@ spawn(function()
                     end
                 end
             elseif plr.PlayerGui.Lobby.MarketplaceFrame.Visible == false and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.ConfirmPopup.Visible == false then
-                plr.Character.PrimaryPart.CFrame = CFrame.new(1440.1375732421875, 111.3502197265625, 2535.1767578125)
+                plr.Character.PrimaryPart.CFrame = CFrame.new(2114.790771484375, -1.386025309562683, 2119.912109375)
                 wait(1)
-                plr.Character.PrimaryPart.CFrame = CFrame.new(1436.17041015625, 112.8502426147461, 2572.00927734375)
+                plr.Character.PrimaryPart.CFrame = CFrame.new(2131.40625, 1.373171329498291, 2140.538330078125)
             elseif plr.PlayerGui.Lobby.MarketplaceFrame.Visible and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.Visible == false and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.BuyMenu.Visible == true then
                 clickGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.TopBar.Sell.Button)
             end
