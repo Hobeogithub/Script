@@ -1,3 +1,4 @@
+-- Tat trade
 shared.AutoSell = {
     Webhook = "",
     HopSetting = {
@@ -6,15 +7,15 @@ shared.AutoSell = {
     },
     ChatSetting = {
         Active = true,
-        Delay = 30,
+        Delay = 15,
         List = {"Sell Mewing TV Man 100 gem in market place"}
     },
     Unit = {
-        ["Santa TV Man"] = 9999,
+        ["Mewing TV Man"] = 100,
         ["Toxic Upgraded Titan Cameraman"] = 12345,
         ["Mace Cameraman"] = 6789,
         ["Shield Cameraman"] = 10111,
-        ["Mewing TV Man"] = 250,
+        ["Red Laser Cameraman"] = 99999,
     }
 }
 
@@ -220,9 +221,9 @@ spawn(function()
                     end
                 end
             elseif plr.PlayerGui.Lobby.MarketplaceFrame.Visible == false and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.ConfirmPopup.Visible == false then
-                plr.Character.PrimaryPart.CFrame = CFrame.new(2114.790771484375, -1.386025309562683, 2119.912109375)
+                plr.Character.PrimaryPart.CFrame = CFrame.new(1440.1375732421875, 111.3502197265625, 2535.1767578125)
                 wait(1)
-                plr.Character.PrimaryPart.CFrame = CFrame.new(2131.40625, 1.373171329498291, 2140.538330078125)
+                plr.Character.PrimaryPart.CFrame = CFrame.new(1436.17041015625, 112.8502426147461, 2572.00927734375)
             elseif plr.PlayerGui.Lobby.MarketplaceFrame.Visible and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.Visible == false and plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.BuyMenu.Visible == true then
                 clickGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.TopBar.Sell.Button)
             end
