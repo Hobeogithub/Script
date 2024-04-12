@@ -25,14 +25,14 @@ getgenv().Config = {
     ["AutoExchangeEgg"] = "false",
     ["MailName"] = "",
     ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
+    ["AutoMail"] = false,
     ["WH_MatchComplete"] = true,
     ["AutoUseBoost"] = true,
     ["UseBoosts"] = {
         ["2xCoinsBoost"] = true,
         ["2xEggsBoost"] = true,
     },
-    ["UseAll"] = true,
+    ["UseAll"] = false,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1225244631160066169/yRQU7lFGc3P2spNiPRecxDfHkTQzA6lpnzDLr61vvjBmKMhuzWX3f-VOKgrW8kC_Cmr5",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
