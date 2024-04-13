@@ -13,8 +13,8 @@ _G.Kaitan = {
         ['Close Interface'] = true
     },
     Webhooks = {
-        ['Enabled'] = false,
-        ['Enter URL'] = ""
+        ['Enabled'] = true,
+        ['Enter URL'] = "https://discord.com/api/webhooks/1228779832112971868/VQEqs4RB2i7H3f0AKlcqtSTEyHe9SsLUIqVv5bsarY7v_H_zpfm7MDjJtaBYIcMYhsXK"
     },
     Settings = {
         ['Upgrade Storage'] = true,
