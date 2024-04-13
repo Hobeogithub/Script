@@ -22,7 +22,7 @@ getgenv().Config = {
     ["DelayJoin"] = "45",
     ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "1",
-    ["AutoExchangeEgg"] = "false",
+    ["AutoExchangeEgg"] = "true",
     ["MailName"] = "",
     ["RequiredGem"] = 1000,
     ["AutoMail"] = false,
@@ -32,7 +32,7 @@ getgenv().Config = {
         ["2xCoinsBoost"] = true,
         ["2xEggsBoost"] = true,
     },
-    ["UseAll"] = false,
+    ["UseAll"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1225244940670472212/KzqiUGpNUcyV9gAfrOF0Edn9rr3y7IP_ue8MlvskNd_R88OJU3XAiCNvEmJ27hS363pm",
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
