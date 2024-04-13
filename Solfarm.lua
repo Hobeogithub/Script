@@ -14,7 +14,7 @@ _G.Kaitan = {
     },
     Webhooks = {
         ['Enabled'] = true,
-        ['Enter URL'] = "https://discord.com/api/webhooks/1228779832112971868/VQEqs4RB2i7H3f0AKlcqtSTEyHe9SsLUIqVv5bsarY7v_H_zpfm7MDjJtaBYIcMYhsXK"
+        ['Enter URL'] = "https://discord.com/api/webhooks/1228779986081677424/Gbikqb3OvZryUu25-SrtxZbqlliOxCdxXrdFhWDbIAzRDz9tw1z4zRCldUZuHQs2CD_Q"
     },
     Settings = {
         ['Upgrade Storage'] = true,
