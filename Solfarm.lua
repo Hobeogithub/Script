@@ -17,7 +17,7 @@ _G.Kaitan = {
         ['Enter URL'] = ""
     },
     Settings = {
-        ['Upgrade Storage'] = false,
+        ['Upgrade Storage'] = true,
         ['Streamer Mode'] = true,
         ['FullBright'] = false,
         ['Remove Fog'] = true,
