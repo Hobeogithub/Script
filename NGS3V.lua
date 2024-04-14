@@ -1,14 +1,14 @@
 getgenv().Key = "ke722fae319d8c8ca8595862"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1225597546098069504/MacroEggBunny.json?ex=6621b5a9&is=660f40a9&hm=d40576b6420be9283aeb3b16513d71d02ac0134978626b0555b5973f9f06e772&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1229181109087109180/Endlessfarm.json?ex=662ebf1d&is=661c4a1d&hm=e63eefd9e92603cdf14639631aca931bd8492cc7c84411d5977c11813debe25a&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = false,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
+    ["SelectMap"] = "Toilet Fortress",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "MacroEggBunny",
+    ["SelectMacro"] = "Endlessfarm",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
@@ -17,7 +17,7 @@ getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventPass"] = true,
-    ["AutoClaimVIP"] = true,
+    ["AutoClaimVIP"] = false,
     ["WhiteScreen"] = true,
     ["DelayJoin"] = "45",
     ["PlacingFailsafe"] = true,
