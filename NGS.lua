@@ -1,4 +1,4 @@
-getgenv().Key = "ke722fae319d8c8ca8595862"
+getgenv().Key = ""
 getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1229445987874115584/Nightmarefarm.json?ex=662fb5cd&is=661d40cd&hm=aabfa0558b788316740fcaaaf69b6159711df0e4172067c7e027e0bcf84cab05&"
 getgenv().Config = {
