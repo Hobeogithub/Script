@@ -1,15 +1,15 @@
 getgenv().Key = "ke722fae319d8c8ca8595862"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1229181109087109180/Endlessfarm.json?ex=662ebf1d&is=661c4a1d&hm=e63eefd9e92603cdf14639631aca931bd8492cc7c84411d5977c11813debe25a&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1229445987874115584/Nightmarefarm.json?ex=662fb5cd&is=661d40cd&hm=aabfa0558b788316740fcaaaf69b6159711df0e4172067c7e027e0bcf84cab05&"
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = false,
+    ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["SelectMap"] = "Toilet City",
-    ["AutoJoinEndless"] = true,
+    ["AutoJoinEndless"] = false,
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "Endlessfarm",
+    ["SelectMacro"] = "Nightmarefarm",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
