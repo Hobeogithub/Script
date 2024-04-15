@@ -3,7 +3,7 @@ shared.AutoSell = {
     Webhook = "",
     HopSetting = {
         EverySecond = 10,
-        MinPlayer = 60000, --Max 65
+        MinPlayer = 600, --Max 65
     },
     ChatSetting = {
         Active = true,
