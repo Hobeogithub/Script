@@ -1,9 +1,8 @@
--- Tat trade
 shared.AutoSell = {
     Webhook = "",
     HopSetting = {
         EverySecond = 10,
-        MinPlayer = 600, --Max 65
+        MinPlayer = 60000, --Max 65
     },
     ChatSetting = {
         Active = true,
@@ -241,7 +240,7 @@ spawn(function()
                             clickGui(v.TroopPicture.InteractiveButton)
                         until plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.SellUnitPopup.Visible
                         wait(.2)
-                        local priceCheck = canSellThisUnit(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.SellUnitPopup.UnitName.UnitName.Text)
+                        local priceCheck = canSellThisUnit(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.SellUnitPopup.UnitName.UnitName.Text) and 0 or nil
                         if priceCheck then
                             repeat wait()
                                 writeGui(plr.PlayerGui.Lobby.MarketplaceFrame.MarketplaceMain.MainFrame.SellUnitMenu.SellUnitPopup.MiddleMenu.PriceFrame.GemsFrame.TextBox, tostring(priceCheck))
