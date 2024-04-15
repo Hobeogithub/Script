@@ -1,14 +1,15 @@
 getgenv().Key = "ke722fae319d8c8ca8595862"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1225597546098069504/MacroEggBunny.json?ex=6621b5a9&is=660f40a9&hm=d40576b6420be9283aeb3b16513d71d02ac0134978626b0555b5973f9f06e772&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1229445987874115584/Nightmarefarm.json?ex=662fb5cd&is=661d40cd&hm=aabfa0558b788316740fcaaaf69b6159711df0e4172067c7e027e0bcf84cab05&"
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = false,
+    ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
+    ["SelectMap"] = "Toilet City",
+    ["AutoJoinEndless"] = false,
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "MacroEggBunny",
+    ["SelectMacro"] = "Nightmarefarm",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
@@ -17,7 +18,7 @@ getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventPass"] = true,
-    ["AutoClaimVIP"] = true,
+    ["AutoClaimVIP"] = false,
     ["WhiteScreen"] = true,
     ["DelayJoin"] = "45",
     ["PlacingFailsafe"] = true,
