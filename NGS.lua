@@ -1,6 +1,6 @@
 getgenv().Key = "ke722fae319d8c8ca8595862"
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1229445987874115584/Nightmarefarm.json?ex=662fb5cd&is=661d40cd&hm=aabfa0558b788316740fcaaaf69b6159711df0e4172067c7e027e0bcf84cab05&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1224650126518124585/1235053356750475316/Nightmarefarm.json?ex=6638e752&is=663795d2&hm=a6a5720a7ad850aefa3b3f0ef59f84f13b925901fd141b04b23a7895e4c5d3f5&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
@@ -19,13 +19,11 @@ getgenv().Config = {
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventPass"] = true,
     ["AutoClaimVIP"] = false,
-    ["WhiteScreen"] = true,
-    ["DelayJoin"] = "45",
+    ["WhiteScreen"] = false,
+    ["DelayJoin"] = "25",
     ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEgg"] = "true",
-    ["MailName"] = "",
-    ["RequiredGem"] = 1000,
+    ["MailName"] = "VomiKadDg",
+    ["RequiredGem"] = 5000,
     ["AutoMail"] = false,
     ["WH_MatchComplete"] = true,
     ["AutoUseBoost"] = true,
@@ -34,6 +32,6 @@ getgenv().Config = {
         ["2xEggsBoost"] = true,
     },
     ["UseAll"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1224737896163184661/5QXoPeEkTSf7iMOL0QZIXXtsTmrV-tXzLDh8a7jPgypM4l4fznYbDHR7hA-aZms6XWPe",
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1221661794213433376/DFOdIZ14u5nAca1pxHXkWa5K_jSdPa67I0pbec9kg4ccoiT1YfA6PWkzvfGXcaAG1mwo",
 }
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
